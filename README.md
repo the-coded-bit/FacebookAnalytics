@@ -35,6 +35,19 @@ ____
 - Access Token
 - Facebook Graph API - an API from facebook, which will be used to fetch posts data from facebook.
 
+## Dashboard KPI's (Key Performance Indicators)
+I have explored the FB Graph API for Posts data, decided upon various KPI's which can be shown, as listed below:
+- whether the Post was popular or not.
+- number of comments vs time ( let's us analyze engagement with posts with time period).
+- number of shares of Post vs time (let's us analyze how much the post was shared with time period).
+- story_tags vs reach (let's us analyze which tags has reached the user the most).
+
+## Sequence Diagram
+![User flow](/screenshots/sequence_diagram.png)
+
+## Wireframes
+![wireframes](/screenshots/wireframes.png)
+
 ## Tech Used
 - [ReactJS] - for Frontend.
 - [Django] - for Backend.
@@ -43,7 +56,6 @@ ____
 - [GitHub] - for version control.
 - [Vercel] - for application deployment.
 
-#### `PS: I'll include wireframes, sequence diagram during this weekend, I got less time due to office work, will update soon.🔥🔥`
 
    [Django]: <https://docs.djangoproject.com/en/5.0/>
    [Django Rest Framework]: <https://www.django-rest-framework.org/>
